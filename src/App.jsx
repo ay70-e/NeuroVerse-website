@@ -7,10 +7,10 @@ import Beyond from "./pages/Beyond";
 
 function App() {
   return (
-    <BrowserRouter basename="/NeuroVerse-website">
+    <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/NeuroVerse-website" element={<Brain />} />
+        <Route path="/" element={<Brain />} />
         <Route path="/consciousness" element={<Consciousness />} />
         <Route path="/dimensions" element={<Dimensions />} />
         <Route path="/beyond" element={<Beyond />} />

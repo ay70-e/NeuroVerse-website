@@ -35,7 +35,7 @@ const Header = () => {
             {/* Desktop Navigation */}
             <nav data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000"
                 className="hidden md:flex items-center gap-12">
-                <Link to="/NeuroVerse-website" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                <Link to="/" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
                     className="text-base tracking-wider z-50 transition-colors hover:text-[#8A2BE2]">
                     Mind
                 </Link>
