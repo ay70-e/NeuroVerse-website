@@ -12,9 +12,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/NeuroVerse-website" element={<Brain />} />        
-        <Route path="/consciousness" element={<Consciousness />} />
-        <Route path="/dimensions" element={<Dimensions />} />
-        <Route path="/beyond" element={<Beyond />} />
+        <Route path="/NeuroVerse-website/consciousness" element={<Consciousness />} />
+        <Route path="/NeuroVerse-website/dimensions" element={<Dimensions />} />
+        <Route path="/NeuroVerse-website/beyond" element={<Beyond />} />
       </Routes>
     </Router>
   );
