@@ -35,7 +35,7 @@ const Brain = () => {
 
         </div>
         
-          <Spline  data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-dalay="300" data-aos-offset="0" data-aos-duration="3000"
+          <Spline  data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-dalay="30" data-aos-offset="0" data-aos-duration="300"
         className='absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25% sm:left-[20%] h-full' 
         scene="https://prod.spline.design/R4HgYjZsrdgEL9mm/scene.splinecode" />
     </main>
