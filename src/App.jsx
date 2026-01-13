@@ -1,22 +1,21 @@
-import Brain from './pages/Brain';
-import Consciousness from './pages/Consciousness';
-import Dimensions from './pages/Dimensions';
-import Beyond from './pages/Beyond';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Brain from "./pages/Brain";
+import Consciousness from "./pages/Consciousness";
+import Dimensions from "./pages/Dimensions";
+import Beyond from "./pages/Beyond";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/NeuroVerse-website">
       <Header />
       <Routes>
-        <Route path="/NeuroVerse-website" element={<Brain />} />        
-        <Route path="/NeuroVerse-website/consciousness" element={<Consciousness />} />
-        <Route path="/NeuroVerse-website/dimensions" element={<Dimensions />} />
-        <Route path="/NeuroVerse-website/beyond" element={<Beyond />} />
+        <Route path="/NeuroVerse-website" element={<Brain />} />
+        <Route path="/consciousness" element={<Consciousness />} />
+        <Route path="/dimensions" element={<Dimensions />} />
+        <Route path="/beyond" element={<Beyond />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
